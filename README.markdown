@@ -1,5 +1,18 @@
 # rsi.vim
 
+---------------------------------------------------------------------------
+## Changes to upstream
+
+This is not the upstream source. It's a fork to that integrates PR [#48
+Allow disabling mappings in insert or cmdline
+mode](https://github.com/tpope/vim-rsi/pull/48) which will not be
+integrated into upstream.
+
+If you are searching for the non-patched upstream see
+http://github.com/tpope/vim-rsi.
+
+---------------------------------------------------------------------------
+
 You know Readline key bindings?  Of course you do, they're in your shell, your
 REPL, and perhaps even the GUI for your OS.  They're similar to Emacs
 key bindings (C-a for home), but with several concessions for UNIX (C-w for
